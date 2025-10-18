@@ -1,0 +1,28 @@
+.products{
+    margin-top: 200px;
+    width: 100%;
+    height: 600px;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas: 
+    "pr1 pr2 pr3"
+    "pr4 pr5 pr6";
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    padding: 20px;
+}
+
+
+.block{
+    width: 70%;
+    height: 260px;
+    background-color: brown;
+    margin: auto;
+}
+
+.pr1{grid-area: pr1;}
+.pr2{grid-area: pr2;}
+.pr3{grid-area: pr3;}
+.pr4{grid-area: pr4;}
+.pr5{grid-area: pr5;}
+.pr6{grid-area: pr6;}
